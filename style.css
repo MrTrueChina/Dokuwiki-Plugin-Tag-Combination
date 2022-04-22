@@ -1,0 +1,53 @@
+/**
+ * Copyright 2022 Mr.true.China
+
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+
+ *     http://www.apache.org/licenses/LICENSE-2.0
+
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/* 命名空间输入框的样式 */
+#tagcombination_namespace_input{
+    display: block;
+    width: 100%;
+}
+
+/* 标签输入框的样式 */
+#tagcombination_tags_input{
+    display: block;
+    width: 100%;
+    /* 只能上下拖动 */
+    resize: vertical;
+    /* 加高一点标签输入框，看起来不要太挤 */
+    height: 5em;
+}
+
+/* 搜索页面 form 表单的通用样式 */
+.tagcombination_form{
+    /* 都加上底部边距，让画面不要太密集 */
+    margin-bottom: 1em;
+}
+
+/* 加载标签信息页面，标签输入框的样式 */
+#tagcombination_tag_input{
+    display: block;
+    width: 100%;
+}
+
+/* 编辑标签组合页面的标签 */
+#tagcombination_combination_info_input{
+    display: block;
+    width: 100%;
+    /* 只能上下拖动 */
+    resize: vertical;
+    /* 默认给一个比较大的空间 */
+    height: 20em;
+}

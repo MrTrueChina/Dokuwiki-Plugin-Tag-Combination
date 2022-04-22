@@ -1,0 +1,7 @@
+base    tagcombination
+author  Mr.true.China
+email   mr.true.china@gmail.com
+date    2022-04-18
+name    Tag Combination
+desc    Add a contact to the tag, you can search the page through the contact.
+url     http://dokuwiki.org/plugin:tagcombination
